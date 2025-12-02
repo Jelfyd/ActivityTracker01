@@ -39,5 +39,35 @@ public class UnitTest1
         t.ResetDay();
         Assert.That(t.StepsToday, Is.EqualTo(0));
     }
+    [Test]
+    public void GetProgress_ShouldReturn100_WhenGoalIsZero()
+    {
+        var t = new ActivityTracker(0);
+        Assert.That(t.GetProgress(), Is.EqualTo(100));
+    }
+
+    [Test]
+    public void GetProgress_ShouldReturnCorrectPercentage()
+    {
+        var t = new ActivityTracker(4000);
+        t.AddSteps(1000);
+        Assert.That(t.GetProgress, Is.EqualTo(25));
+    }
+    [Test]
+    public void IsGoalReached_ShouldBeTrue_WhenStepsEnough()
+    {
+        var t = new ActivityTracker(3000);
+        t.AddSteps(3000);
+        Assert.That(t.IsGoalReached, Is.True);
+    }
+
+    [Test]
+    public void IsGoalReached_ShouldBeFalse_WhenStepsNotEnough()
+    {
+        var t = new ActivityTracker(3000);
+        t.AddSteps(1000);
+        Assert.That(t.IsGoalReached, Is.False);
+    }
+
 
 }

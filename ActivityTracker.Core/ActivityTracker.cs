@@ -4,6 +4,7 @@ public class ActivityTracker
 {
     public int DailyGoal { get; }
     public int StepsToday { get; private set; }
+    public bool IsGoalReached => StepsToday >= DailyGoal;
 
     public ActivityTracker(int dailyGoal)
     {
@@ -28,5 +29,5 @@ public class ActivityTracker
         if (DailyGoal == 0) return 100;
         return (int)((double)StepsToday / DailyGoal * 100);
     }
-
+    
 }
