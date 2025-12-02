@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ActivityTracker.Core/ActivityTracker.Core.csproj" />
+  <Project Path="ActivityTracker.Tests/ActivityTracker.Tests.csproj" />
+</Solution>
