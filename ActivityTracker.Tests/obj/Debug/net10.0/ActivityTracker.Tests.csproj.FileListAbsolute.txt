@@ -1,0 +1,9 @@
+D:\ActivityTracker01\ActivityTracker.Tests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_ActivityTracker.Tests
+D:\ActivityTracker01\ActivityTracker.Tests\bin\Debug\net10.0\CoverletSourceRootsMapping_ActivityTracker.Tests
+D:\ActivityTracker01\ActivityTracker.Tests\obj\Debug\net10.0\ActivityTracker.Tests.csproj.AssemblyReference.cache
+D:\ActivityTracker01\ActivityTracker.Tests\obj\Debug\net10.0\ActivityTracker.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\ActivityTracker01\ActivityTracker.Tests\obj\Debug\net10.0\ActivityTracker.Tests.gentestingplatformentrypointinputcache.cache
+D:\ActivityTracker01\ActivityTracker.Tests\obj\Debug\net10.0\ActivityTracker.Tests.genautoregisteredextensionsinputcache.cache
+D:\ActivityTracker01\ActivityTracker.Tests\obj\Debug\net10.0\ActivityTracker.Tests.AssemblyInfoInputs.cache
+D:\ActivityTracker01\ActivityTracker.Tests\obj\Debug\net10.0\ActivityTracker.Tests.AssemblyInfo.cs
+D:\ActivityTracker01\ActivityTracker.Tests\obj\Debug\net10.0\ActivityTracker.Tests.csproj.CoreCompileInputs.cache
