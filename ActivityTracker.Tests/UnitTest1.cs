@@ -31,4 +31,13 @@ public class UnitTest1
         t.AddSteps(-300);
         Assert.That(t.StepsToday, Is.EqualTo(0));
     }
+    [Test]
+    public void ResetDay_ShouldSetStepsToZero()
+    {
+        var t = new ActivityTracker(5000);
+        t.AddSteps(2000);
+        t.ResetDay();
+        Assert.That(t.StepsToday, Is.EqualTo(0));
+    }
+
 }

@@ -19,5 +19,9 @@ public class ActivityTracker
         if (steps > 0)
             StepsToday += steps;
     }
+    public void ResetDay()
+    {
+        StepsToday = 0;
+    }
 
 }
