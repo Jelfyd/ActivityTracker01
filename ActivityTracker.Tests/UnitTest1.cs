@@ -15,4 +15,20 @@ public class UnitTest1
         var tracker = new ActivityTracker(5000);
         Assert.That(tracker.DailyGoal, Is.EqualTo(5000));
     }
+
+    [Test]
+    public void AddSteps_ShouldIncreaseSteps_WhenPositive()
+    {
+        var t = new ActivityTracker(5000);
+        t.AddSteps(1000);
+        Assert.That(t.StepsToday, Is.EqualTo(1000));
+    }
+
+    [Test]
+    public void AddSteps_ShouldIgnoreNegativeValues()
+    {
+        var t = new ActivityTracker(5000);
+        t.AddSteps(-300);
+        Assert.That(t.StepsToday, Is.EqualTo(0));
+    }
 }

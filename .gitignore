@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build artifacts
+bin/
+obj/
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+
+# IDE settings
+*.vscode/
