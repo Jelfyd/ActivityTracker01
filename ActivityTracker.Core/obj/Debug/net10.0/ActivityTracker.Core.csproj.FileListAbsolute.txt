@@ -9,3 +9,4 @@ D:\ActivityTracker01\ActivityTracker.Core\obj\Debug\net10.0\ActivityTracker.Core
 D:\ActivityTracker01\ActivityTracker.Core\obj\Debug\net10.0\refint\ActivityTracker.Core.dll
 D:\ActivityTracker01\ActivityTracker.Core\obj\Debug\net10.0\ActivityTracker.Core.pdb
 D:\ActivityTracker01\ActivityTracker.Core\obj\Debug\net10.0\ref\ActivityTracker.Core.dll
+D:\ActivityTracker01\ActivityTracker.Core\obj\Debug\net10.0\ActivityTracker.Core.sourcelink.json

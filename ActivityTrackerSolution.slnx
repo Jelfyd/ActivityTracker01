@@ -1,4 +1,4 @@
 <Solution>
   <Project Path="ActivityTracker.Core/ActivityTracker.Core.csproj" />
-  <Project Path="ActivityTracker.Tests/ActivityTracker.Tests.csproj" />
+  <Project Path="ActivityTracker.Test/ActivityTracker.Test.csproj" Id="5243a3ae-d8f4-4544-a2b1-41f356298172" />
 </Solution>
